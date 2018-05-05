@@ -10,6 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^8.3.0",
+    "basscss-sass": "^4.0.0",
     "browser-sync": "^2.23.6",
     "cssnano": "^3.10.0",
     "gulp": "^3.9.1",

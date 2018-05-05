@@ -6,9 +6,10 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% block meta %}{{meta.content(type="website")}}{% endblock %}
+  <link rel="stylesheet" href="/css/vendor.css">
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Dosis:400,500" rel="stylesheet"> 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -20,6 +21,7 @@
 <body>
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4C8RFK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <main>
+    {% include 'header.nunjucks' %}
     {% block main %}{% endblock %}
   </main>
   <script src="/js/vendor.js"></script>

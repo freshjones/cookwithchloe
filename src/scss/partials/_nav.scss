@@ -1,0 +1,47 @@
+nav{
+  display:none;
+  height:100%;
+  font-family: 'Dosis',sans-serif;
+  font-size: 22px;
+  text-transform: lowercase;
+}
+
+nav ul
+{
+  display:flex;
+  margin:0 0 0 30px;
+  height:100%;
+  padding:0;
+  list-style:none;
+}
+
+nav li
+{
+  display: flex;
+  align-items: center;
+}
+
+nav a
+{
+  display: flex;
+  align-items:center;
+  margin: 0;
+  padding: 20px 20px 0 20px;
+  line-height: 1;
+  height: 100%;
+  color:$silver;
+}
+
+nav a.active
+{
+  color:$green;
+}
+
+@include breakpoint($medium) { 
+  
+
+  nav{
+    display:block;
+  }
+
+}

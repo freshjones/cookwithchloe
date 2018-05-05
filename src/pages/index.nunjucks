@@ -2,5 +2,43 @@
 {% extends "layout.nunjucks" %}
 
 {% block main %} 
- HELLO there
+  <section>
+    <div class="container">
+      <div>
+        <div class="md-flex items-center justify-between">
+          <h2 class="m0 p0 dosis regular maroon">Make this for <span class="caps bitter gray">dinner</span></h2>
+          <div class="dosis regular"><a href="/blog">or skip straight to the blog</a></div>
+        </div>
+      </div>
+      <div class="md-flex mxn2">
+        <div class="md-col-4 p2">
+          <div class="relative">
+            <div class="image-container"><img src="/images/stub1.jpg"></div>
+            <div class="bg-maroon white absolute bottom-0 col-12 p2 translucent">
+              <div>Dinner</div>
+              <div>Cauliflower walnut taco meat</div>
+            </div>
+          </div>
+        </div>
+        <div class="md-col-4 p2">
+          <div class="relative">
+            <div class="image-container"><img src="/images/stub1.jpg"></div>
+            <div class="bg-maroon white absolute bottom-0 col-12 p2 translucent">
+              <div>Dinner</div>
+              <div>Cauliflower walnut taco meat</div>
+            </div>
+          </div>
+        </div>
+        <div class="md-col-4 p2">
+          <div class="relative">
+            <div class="image-container"><img src="/images/stub1.jpg"></div>
+            <div class="bg-maroon white absolute bottom-0 col-12 p2 translucent">
+              <div>Dinner</div>
+              <div>Cauliflower walnut taco meat</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 {% endblock %}

@@ -1,0 +1,23 @@
+
+header
+{
+  //position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: $soft-white;
+  top: 0px;
+  border-bottom: 1px solid #ccc;
+  border-top: 10px solid $wine;
+  padding: 25px 0;
+}
+
+header .container
+{
+  display:flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+@import 'logo';
+@import 'toggle';
+@import 'nav';
