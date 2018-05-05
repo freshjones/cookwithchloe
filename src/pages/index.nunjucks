@@ -11,30 +11,107 @@
         </div>
       </div>
       <div class="md-flex mxn2">
-        <div class="md-col-4 p2">
-          <div class="relative">
-            <div class="image-container"><img src="/images/stub1.jpg"></div>
-            <div class="bg-maroon white absolute bottom-0 col-12 p2 translucent">
-              <div>Dinner</div>
-              <div>Cauliflower walnut taco meat</div>
+        {# CARD 1 #}
+        {{ cards.large(
+          image='stub1.jpg',
+          category="Dinner",
+          title="Cauliflower walnut taco meat",
+          pin_description="Spicy Cauliflower Walnut Taco Meat! it's so easy: just mix and bake. meatless, gluten free, vegan! #glutenfree #vegetarian #vegan #dinnerrecipe #healthy #yum | cookwithchloe.com",
+          pin_url="https://cookwithchloe.com/cauliflower-walnut-vegetarian-taco-meat",
+          alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings."
+        ) }}
+        {# CARD 2 #}
+        {{ cards.large(
+          image='stub1.jpg',
+          category="Dinner",
+          title="Cauliflower walnut taco meat",
+          pin_description="Spicy Cauliflower Walnut Taco Meat! it's so easy: just mix and bake. meatless, gluten free, vegan! #glutenfree #vegetarian #vegan #dinnerrecipe #healthy #yum | cookwithchloe.com",
+          pin_url="https://cookwithchloe.com/cauliflower-walnut-vegetarian-taco-meat",
+          alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings."
+        ) }}
+        {# CARD 3 #}
+        {{ cards.large(
+          image='stub1.jpg',
+          category="Dinner",
+          title="Cauliflower walnut taco meat",
+          pin_description="Spicy Cauliflower Walnut Taco Meat! it's so easy: just mix and bake. meatless, gluten free, vegan! #glutenfree #vegetarian #vegan #dinnerrecipe #healthy #yum | cookwithchloe.com",
+          pin_url="https://cookwithchloe.com/cauliflower-walnut-vegetarian-taco-meat",
+          alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings."
+        ) }}
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="md-flex items-stretch mxn2">
+        <div class="md-col-8 p2">
+          <div class="md-flex items-center bg-light-silver">
+            <div class="md-col-4 p2 ">
+              <img src="/images/chloe.jpg" alt="Chloe Jones" class="circle" data-pin-nopin="true">
+            </div>
+            <div class="md-col-8 p2 ">
+              <h2 class="caps h5 silver">Hi, Nice to meet you, I'm Chloe!</h2>
+              <p class="h5 p0 m0">Small business owner, food blogger, wife and mom of 3. I live in Massachusetts with my husband Billy, our daughter Olivia and our dog Tessa. My favorite things include cooking, boating and spending time with the fam.</p>
+              <p class="h5 p0 m0 right-align"><a href="/about.html">Learn More</a></p>
             </div>
           </div>
         </div>
         <div class="md-col-4 p2">
-          <div class="relative">
-            <div class="image-container"><img src="/images/stub1.jpg"></div>
-            <div class="bg-maroon white absolute bottom-0 col-12 p2 translucent">
-              <div>Dinner</div>
-              <div>Cauliflower walnut taco meat</div>
+          <a href="/about.html" class="bg-maroon white flex flex-column full-height block">
+            <div class="image-container">
+              <img src="/images/tessa.jpg" alt="" data-pin-nopin="true">
             </div>
+            <div class="center-align flex-auto flex items-center justify-center">MEET TESSA our happy hound</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="container border-top border-gray pt3">
+      <div class="md-flex mxn2">
+        <div class="md-col-8 px2">
+          <h2 class="m0 p0 dosis regular maroon">The latest and <span class="caps bitter gray">greatest</span></h2>
+          <div>
+            {# CARD 1 #}
+            {{ cards.postSummary(
+              link='https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs',
+              image='stub2.jpg',
+              date="May 3, 2018",
+              title="Garlic Herb Spaghetti with Chicken Meatballs",
+              description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum!",
+              pin_description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum! #pasta #spaghetti #meatballs #chickenmeatballs #springrecipe | www.cookwithchloe.com",
+              pin_url="https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs",
+              alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull."
+            ) }}
+            {# CARD 2 #}
+            {{ cards.postSummary(
+              link='https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs',
+              image='stub2.jpg',
+              date="May 3, 2018",
+              title="Garlic Herb Spaghetti with Chicken Meatballs",
+              description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum!",
+              pin_description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum! #pasta #spaghetti #meatballs #chickenmeatballs #springrecipe | www.cookwithchloe.com",
+              pin_url="https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs",
+              alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull."
+            ) }}
+            {# CARD 3 #}
+            {{ cards.postSummary(
+              link='https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs',
+              image='stub2.jpg',
+              date="May 3, 2018",
+              title="Garlic Herb Spaghetti with Chicken Meatballs",
+              description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum!",
+              pin_description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum! #pasta #spaghetti #meatballs #chickenmeatballs #springrecipe | www.cookwithchloe.com",
+              pin_url="https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs",
+              alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull."
+            ) }}
           </div>
         </div>
-        <div class="md-col-4 p2">
-          <div class="relative">
-            <div class="image-container"><img src="/images/stub1.jpg"></div>
-            <div class="bg-maroon white absolute bottom-0 col-12 p2 translucent">
-              <div>Dinner</div>
-              <div>Cauliflower walnut taco meat</div>
+        <div class="md-col-4 px2">
+          <div class="bg-light-silver p2">
+            <h2>Top Posts</h2>
+            <div>
             </div>
           </div>
         </div>

@@ -21,10 +21,26 @@
 <body>
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4C8RFK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <main>
+    {% import 'macros/card.nunjucks' as cards %}
     {% include 'header.nunjucks' %}
     {% block main %}{% endblock %}
   </main>
   <script src="/js/vendor.js"></script>
   <script src="/js/main.js"></script>
+  <!-- Drip -->
+  <script type="text/javascript">
+    var _dcq = _dcq || [];
+    var _dcs = _dcs || {};
+    _dcs.account = '1051913';
+
+    (function() {
+      var dc = document.createElement('script');
+      dc.type = 'text/javascript'; dc.async = true;
+      dc.src = '//tag.getdrip.com/1051913.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(dc, s);
+    })();
+  </script>
+  <!-- end Drip -->
 </body>
 </html>

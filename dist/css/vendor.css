@@ -1198,4 +1198,140 @@ $size-1: $size-default * 4 - 8px;
   background-color: #853977;
 }
 
+/* Basscss Border */
+.border {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.border-top {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.border-right {
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.border-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.border-left {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+.border-none {
+  border: 0;
+}
+
+.rounded {
+  border-radius: 3px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.rounded-top {
+  border-radius: 3px 3px 0 0;
+}
+
+.rounded-right {
+  border-radius: 0 3px 3px 0;
+}
+
+.rounded-bottom {
+  border-radius: 0 0 3px 3px;
+}
+
+.rounded-left {
+  border-radius: 3px 0 0 3px;
+}
+
+.not-rounded {
+  border-radius: 0;
+}
+
+/* Basscss Border Colors */
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+.border-black {
+  border-color: #111;
+}
+
+.border-gray {
+  border-color: #aaa;
+}
+
+.border-silver {
+  border-color: #979599;
+}
+
+.border-white {
+  border-color: #fff;
+}
+
+.border-aqua {
+  border-color: #7fdbff;
+}
+
+.border-blue {
+  border-color: #0074d9;
+}
+
+.border-navy {
+  border-color: #001f3f;
+}
+
+.border-teal {
+  border-color: #39cccc;
+}
+
+.border-green {
+  border-color: #3fa208;
+}
+
+.border-olive {
+  border-color: #3d9970;
+}
+
+.border-lime {
+  border-color: #01ff70;
+}
+
+.border-yellow {
+  border-color: #ffdc00;
+}
+
+.border-orange {
+  border-color: #ff851b;
+}
+
+.border-red {
+  border-color: #ff4136;
+}
+
+.border-fuchsia {
+  border-color: #f012be;
+}
+
+.border-purple {
+  border-color: #b10dc9;
+}
+
+.border-maroon {
+  border-color: #853977;
+}
+
 /*# sourceMappingURL=maps/vendor.css.map */
