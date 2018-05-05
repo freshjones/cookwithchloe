@@ -1,0 +1,28 @@
+{% macro content(
+  title='Cook With Chloe - A food blog with simple nd tasty recipes',
+  description='A food blog with hundreds of simple, healthy recipes',
+  url='https://www.cookwithchloe.com/',
+  sitename='Cook With Chloe',
+  image='https://www.cookwithchloe.com/images/cooking-with-chloe.jpg',
+  type='article',
+  locale='en_US',
+  author='@cookwithchloe'
+  ) 
+%}
+  <title>{{ title }}</title>
+  <meta property="og:locale" content="{{ locale }}" />
+  <meta property="og:type" content="{{ type }}" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ description }}" />
+  <meta property="og:url" content="{{ url }}" />
+  <meta property="og:site_name" content="{{ sitename }}" />
+  <meta property="og:image" content="{{ image }}" />
+  <meta property="og:image:secure_url" content="{{ image }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description" content="{{ description }}" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:site" content="{{ author }}" />
+  <meta name="twitter:image" content="{{ image }}" />
+  <meta name="twitter:image:alt" content="{{ title }}" />
+  <meta name="twitter:creator" content="{{ author }}" />
+{% endmacro %}
