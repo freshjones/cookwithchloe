@@ -1,0 +1,10 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block main %} 
+  <section>
+    <div class="container">
+      Thanks for signing up!
+    </div>
+  </section>
+{% endblock %}

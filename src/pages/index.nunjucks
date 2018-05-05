@@ -61,7 +61,7 @@
             <div class="image-container">
               <img src="/images/tessa.jpg" alt="" data-pin-nopin="true">
             </div>
-            <div class="center-align flex-auto flex items-center justify-center">MEET TESSA our happy hound</div>
+            <div class="center-align py2 flex-auto flex items-center justify-center">MEET TESSA our happy hound</div>
           </a>
         </div>
       </div>
@@ -109,10 +109,77 @@
           </div>
         </div>
         <div class="md-col-4 px2">
-          <div class="bg-light-silver p2">
-            <h2>Top Posts</h2>
-            <div>
+          <div class="p2 bg-maroon">
+            <div class=" white">
+              <form class="p2" action="https://www.getdrip.com/forms/378540869/submissions" method="post" data-drip-embedded-form="378540869">
+                <div class="h2 dosis" data-drip-attribute="headline">Don’t Miss a Single Recipe!</div>
+                <p data-drip-attribute="description"> Get new free recipes and exclusive content delivered right to your inbox: </p>
+                  <div>
+                    <input type="text" id="drip-Name" class="input" placeholder="Name" name="fields[Name]" value="" required />
+                  </div>
+                  <div>
+                    <input type="email" id="drip-email" class="input" placeholder="Email" name="fields[email]" value="" required />
+                  </div>
+                <div>
+                  <input type="submit" value="Sign Up" class="input" data-drip-attribute="sign-up-button" />
+                </div>
+              </form>
             </div>
+          </div>
+          <div class="p2 mt2">
+            <h2 class="m0 p0 dosis regular maroon mb3">Popular <span class="caps bitter gray">Recipes</span></h2>
+            <ul class="list-reset">
+              <li class="caps maroon h3 mb1">Quick + Easy</li>
+              <li class="mb3">
+                {{ cards.postSidebar(
+                  link='/garlic-herb-spaghetti-chicken-meatballs.html',
+                  image='stub3.jpg',
+                  title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+                  alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+                ) }}
+              </li>
+              <li class="mb3">
+                {{ cards.postSidebar(
+                  link='/garlic-herb-spaghetti-chicken-meatballs.html',
+                  image='stub3.jpg',
+                  title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+                  alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+                ) }}
+              </li>
+              <li class="mb3">
+                {{ cards.postSidebar(
+                  link='/garlic-herb-spaghetti-chicken-meatballs.html',
+                  image='stub3.jpg',
+                  title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+                  alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+                ) }}
+              </li>
+              <li class="caps maroon h3 mb1 mt3">Holiday Favs</li>
+              <li class="mb3">
+                {{ cards.postSidebar(
+                  link='/garlic-herb-spaghetti-chicken-meatballs.html',
+                  image='stub3.jpg',
+                  title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+                  alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+                ) }}
+              </li>
+              <li class="mb3">
+                {{ cards.postSidebar(
+                  link='/garlic-herb-spaghetti-chicken-meatballs.html',
+                  image='stub3.jpg',
+                  title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+                  alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+                ) }}
+              </li>
+              <li class="mb3">
+                {{ cards.postSidebar(
+                  link='/garlic-herb-spaghetti-chicken-meatballs.html',
+                  image='stub3.jpg',
+                  title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+                  alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+                ) }}
+              </li>
+            </ul>
           </div>
         </div>
       </div>

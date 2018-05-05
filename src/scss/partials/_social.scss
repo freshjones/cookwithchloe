@@ -1,0 +1,28 @@
+footer .social-icons
+{
+  display:flex;
+  justify-content: center;
+}
+
+footer .social-icons ul
+{
+  list-style: none;
+  display:flex;
+  padding-left: 0;
+  padding-right:0;
+  margin-left: 0;
+  margin-right:0;
+}
+
+footer .social-icons a
+{
+  width:30px;
+  height:30px;
+  display:block;
+  margin: 0 5px;
+}
+
+@include breakpoint($medium) { 
+
+
+}

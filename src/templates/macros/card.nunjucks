@@ -45,3 +45,21 @@
   </div>
 </article>
 {% endmacro %}
+
+
+{% macro postSidebar(
+  link='/garlic-herb-spaghetti-chicken-meatballs.html',
+  image='stub3.jpg',
+  category="Dinner",
+  title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+  alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+  ) 
+%}
+<div class="md-flex mxn1">
+  <div class="md-col-4 px1"><img src="/images/{{ image }}" alt="{{ alt }}" title="{{ title }}" data-pin-nopin="true" /></div>
+  <div class="md-col-8 px1 ">
+    <p class="m0 caps silver dosis">{{ category }}</p>
+    <h3 class="m0 line-height-1 regular"><a href="{{ link }}">{{ title }}</a></h3>
+  </div>
+</div>
+{% endmacro %}

@@ -1,0 +1,13 @@
+<ul>
+  <li>
+    <a href="https://www.facebook.com/pg/FreshJonesCreativeAgency" target="_blank">{% include 'social_icons/facebook.nunjucks' %}</a>
+  <li>
+    <a href="https://www.linkedin.com/company/11410901/" target="_blank">{% include 'social_icons/linkedin.nunjucks' %}</a>
+  <li>
+    <a href="https://twitter.com/freshjones" target="_blank">{% include 'social_icons/twitter.nunjucks' %}</a>
+  <li>
+    <a href="https://www.instagram.com/freshjonescreative/" target="_blank">{% include 'social_icons/instagram.nunjucks' %}</a>
+  <li>
+    <a href="https://www.pinterest.com/freshjonescreative" target="_blank">{% include 'social_icons/pinterest.nunjucks' %}</a>
+  </li>
+</ul>

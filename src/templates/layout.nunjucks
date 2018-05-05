@@ -18,13 +18,16 @@
   })(window,document,'script','dataLayer','GTM-T4C8RFK');</script>
   <!-- End Google Tag Manager -->
 </head>
-<body>
+<body >
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4C8RFK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <main>
-    {% import 'macros/card.nunjucks' as cards %}
+  <div class="mb2">
     {% include 'header.nunjucks' %}
-    {% block main %}{% endblock %}
-  </main>
+    <main>
+      {% import 'macros/card.nunjucks' as cards %}
+      {% block main %}{% endblock %}
+    </main>
+    {% include 'footer.nunjucks' %}
+  </div>
   <script src="/js/vendor.js"></script>
   <script src="/js/main.js"></script>
   <!-- Drip -->

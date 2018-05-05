@@ -1,0 +1,21 @@
+<footer>
+  <div class="container ">
+      <div class="md-flex border-top border-bottom border-gray justify-between">
+        <div>
+          <ul class="list-reset md-flex dosis h3 ">
+            <li><a class="p2 silver" href="/">Home</a></li>
+            <li><a class="p2 silver" href="/about.html">About</a></li>
+            <li><a class="p2 silver" href="/blog">Blog</a></li>
+            <li><a class="p2 silver" href="/recipes.html">Recipes</a></li>
+            <li><a class="p2 silver" href="/shop.html">Shop</a></li>
+          </ul>
+        </div>
+        <div class="social-icons">
+           {% include 'social_icons/social-icons.nunjucks' %}
+        </div>
+      </div>
+      <div class="h6 silver center py2">
+        Copyright &copy; 2018 &bull; <a href="#top" class="silver">Back to Top</a> &bull; <a href="/contact.html" class="silver">Contact</a> &bull; <a href="/privacy.html" class="silver">Privacy</a>
+      </div>
+  </div>
+</footer>
