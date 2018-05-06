@@ -230,4 +230,12 @@ section {
   fill: #853977;
 }
 
+@media (min-width: 980px) {
+  .md-grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+  }
+}
+
 /*# sourceMappingURL=maps/styles.css.map */

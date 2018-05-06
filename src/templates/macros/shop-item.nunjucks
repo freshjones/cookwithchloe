@@ -1,0 +1,13 @@
+{% macro item(
+  url='http://amzn.to/2EW7Hok',
+  image='stub4.jpg',
+  caption='Instant Pot',
+  button='Buy Now'
+  ) 
+%}
+<div class="p2">
+    <div><a rel="nofollow" href="{{ url }}" target="_blank"><img src="/images/{{ image }}" alt="" nopin="nopin"></a></div>
+    <div class="caption gray my2">{{ caption }}</div>
+    <div><a class="bg-maroon block white py1" rel="nofollow" href="{{ url }}" target="_blank">{{ button }}</a></div>
+</div>
+{% endmacro %}

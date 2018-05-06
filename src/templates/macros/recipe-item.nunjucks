@@ -1,0 +1,13 @@
+{% macro item(
+  url='http://amzn.to/2EW7Hok',
+  image='stub5.jpg',
+  title='Instant Pot',
+  button='Buy Now',
+  alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull."
+  ) 
+%}
+<div class="p2">
+    <div><a rel="nofollow" href="{{ url }}" target="_blank"><img src="/images/{{ image }}" alt="{{ alt }}" nopin="nopin"></a></div>
+    <div class="gray my1"><a class="black line-height-1" rel="nofollow" href="{{ url }}" target="_blank">{{ title }}</a></div>
+</div>
+{% endmacro %}

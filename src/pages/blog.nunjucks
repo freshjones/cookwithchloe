@@ -1,0 +1,52 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block meta %}
+  {{meta.content(
+    title='Cook With Chloe - Blog',
+    description='Cook With Chloe - Blog',
+    url='https://www.cookwithchloe.com/blog.html'
+  )}}
+{% endblock %}
+
+{% block main %} 
+  
+  <div>
+  {# CARD 1 #}
+  {{ cards.postSummary(
+    link='https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs',
+    image='stub2.jpg',
+    date="May 3, 2018",
+    title="Garlic Herb Spaghetti with Chicken Meatballs",
+    description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum!",
+    pin_description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum! #pasta #spaghetti #meatballs #chickenmeatballs #springrecipe | www.cookwithchloe.com",
+    pin_url="https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs",
+    alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull."
+  ) }}
+  {# CARD 2 #}
+  {{ cards.postSummary(
+    link='https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs',
+    image='stub2.jpg',
+    date="May 3, 2018",
+    title="Garlic Herb Spaghetti with Chicken Meatballs",
+    description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum!",
+    pin_description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum! #pasta #spaghetti #meatballs #chickenmeatballs #springrecipe | www.cookwithchloe.com",
+    pin_url="https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs",
+    alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull."
+  ) }}
+  {# CARD 3 #}
+  {{ cards.postSummary(
+    link='https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs',
+    image='stub2.jpg',
+    date="May 3, 2018",
+    title="Garlic Herb Spaghetti with Chicken Meatballs",
+    description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum!",
+    pin_description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum! #pasta #spaghetti #meatballs #chickenmeatballs #springrecipe | www.cookwithchloe.com",
+    pin_url="https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs",
+    alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull."
+  ) }}
+  </div>
+          
+{% endblock %}
+
+

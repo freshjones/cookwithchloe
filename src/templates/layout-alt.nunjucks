@@ -12,19 +12,14 @@
     {% include 'header.nunjucks' %}
     <div class="container">
       <div class="md-flex mxn3">
-        <main class="md-col-8 px3">
+        <main class="md-col-10 px3">
           {% import 'macros/card.nunjucks' as cards %}
           {% import 'macros/shop-item.nunjucks' as shop %}
+          {% import 'macros/recipe-item.nunjucks' as recipe %}
           {% block main %}{% endblock %}
         </main>
-        <aside class="md-col-4 px3">
+        <aside class="md-col-2">
           {% block aside %}
-            <div class="my3">
-              {% include 'aboutchloe.nunjucks' %}
-            </div>
-            <div class="my3 border-top border-silver pt3">
-              {% include 'popular-recipes.nunjucks' %}
-            </div>
           {% endblock %}
         </aside>
       </div>

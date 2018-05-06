@@ -1,5 +1,5 @@
 {% macro content(
-  title='Cook With Chloe - A food blog with simple nd tasty recipes',
+  title='Cook With Chloe - A food blog with simple and tasty recipes',
   description='A food blog with hundreds of simple, healthy recipes',
   url='https://www.cookwithchloe.com/',
   sitename='Cook With Chloe',
@@ -10,6 +10,9 @@
   ) 
 %}
   <title>{{ title }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:locale" content="{{ locale }}" />
   <meta property="og:type" content="{{ type }}" />
   <meta property="og:title" content="{{ title }}" />

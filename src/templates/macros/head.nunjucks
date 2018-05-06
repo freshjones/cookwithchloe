@@ -1,0 +1,22 @@
+{% macro content( adsense=true ) %}
+<link rel="stylesheet" href="/css/vendor.css">
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="icon" href="images/favicon-32x32.png" sizes="32x32" />
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Dosis:400,500" rel="stylesheet"> 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T4C8RFK');</script>
+<!-- End Google Tag Manager -->
+{% if adsense %}
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8688418781766675",
+    enable_page_level_ads: true
+  });
+</script>
+{% endif %}
+{% endmacro %}

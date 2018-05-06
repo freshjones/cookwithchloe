@@ -1,0 +1,54 @@
+<!-- index.nunjucks -->
+{% extends "layout-alt.nunjucks" %}
+
+{% block meta %}
+  {{meta.content(
+    title='Cook With Chloe - Recipes',
+    description='Cook With Chloe - Recipes',
+    url='https://www.cookwithchloe.com/recipes.html'
+  )}}
+{% endblock %}
+
+{% block main %} 
+  <h1 class="center dosis regular silver">recipes</h1>
+  <div class="md-flex flex-wrap">
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+    <div class="col-4 center">
+      {{recipe.item()}}
+    </div>
+  </div>
+{% endblock %}
+
+

@@ -5,7 +5,7 @@
           <ul class="list-reset md-flex dosis h3 ">
             <li><a class="p2 silver" href="/">Home</a></li>
             <li><a class="p2 silver" href="/about.html">About</a></li>
-            <li><a class="p2 silver" href="/blog">Blog</a></li>
+            <li><a class="p2 silver" href="/blog.html">Blog</a></li>
             <li><a class="p2 silver" href="/recipes.html">Recipes</a></li>
             <li><a class="p2 silver" href="/shop.html">Shop</a></li>
           </ul>

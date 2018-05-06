@@ -1,0 +1,54 @@
+<!-- index.nunjucks -->
+{% extends "layout-alt.nunjucks" %}
+
+{% block meta %}
+  {{meta.content(
+    title='Cook With Chloe - Shop',
+    description='Shop - Cook With Chloe',
+    url='https://www.cookwithchloe.com/shop.html'
+  )}}
+{% endblock %}
+
+{% block main %} 
+  <h1 class="center dosis regular silver">shop</h1>
+  <div class="md-flex flex-wrap">
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+    <div class="col-4 my2 center">
+      {{shop.item()}}
+    </div>
+  </div>
+{% endblock %}
+
+
