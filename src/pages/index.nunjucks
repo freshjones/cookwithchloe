@@ -18,7 +18,8 @@
           title="Cauliflower walnut taco meat",
           pin_description="Spicy Cauliflower Walnut Taco Meat! it's so easy: just mix and bake. meatless, gluten free, vegan! #glutenfree #vegetarian #vegan #dinnerrecipe #healthy #yum | cookwithchloe.com",
           pin_url="https://cookwithchloe.com/cauliflower-walnut-vegetarian-taco-meat",
-          alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings."
+          alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings.",
+          link='/garlic-herb-spaghetti-chicken-meatballs.html'
         ) }}
         {# CARD 2 #}
         {{ cards.large(
@@ -27,7 +28,8 @@
           title="Cauliflower walnut taco meat",
           pin_description="Spicy Cauliflower Walnut Taco Meat! it's so easy: just mix and bake. meatless, gluten free, vegan! #glutenfree #vegetarian #vegan #dinnerrecipe #healthy #yum | cookwithchloe.com",
           pin_url="https://cookwithchloe.com/cauliflower-walnut-vegetarian-taco-meat",
-          alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings."
+          alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings.",
+          link='/garlic-herb-spaghetti-chicken-meatballs.html'
         ) }}
         {# CARD 3 #}
         {{ cards.large(
@@ -36,7 +38,8 @@
           title="Cauliflower walnut taco meat",
           pin_description="Spicy Cauliflower Walnut Taco Meat! it's so easy: just mix and bake. meatless, gluten free, vegan! #glutenfree #vegetarian #vegan #dinnerrecipe #healthy #yum | cookwithchloe.com",
           pin_url="https://cookwithchloe.com/cauliflower-walnut-vegetarian-taco-meat",
-          alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings."
+          alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings.",
+          link='/garlic-herb-spaghetti-chicken-meatballs.html'
         ) }}
       </div>
     </div>
@@ -75,7 +78,7 @@
           <div>
             {# CARD 1 #}
             {{ cards.postSummary(
-              link='https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs',
+              link='/garlic-herb-spaghetti-chicken-meatballs.html',
               image='stub2.jpg',
               date="May 3, 2018",
               title="Garlic Herb Spaghetti with Chicken Meatballs",
@@ -86,7 +89,7 @@
             ) }}
             {# CARD 2 #}
             {{ cards.postSummary(
-              link='https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs',
+              link='/garlic-herb-spaghetti-chicken-meatballs.html',
               image='stub2.jpg',
               date="May 3, 2018",
               title="Garlic Herb Spaghetti with Chicken Meatballs",
@@ -97,7 +100,7 @@
             ) }}
             {# CARD 3 #}
             {{ cards.postSummary(
-              link='https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs',
+              link='/garlic-herb-spaghetti-chicken-meatballs.html',
               image='stub2.jpg',
               date="May 3, 2018",
               title="Garlic Herb Spaghetti with Chicken Meatballs",

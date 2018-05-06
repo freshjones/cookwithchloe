@@ -1,0 +1,28 @@
+.recipe-body
+{
+  border:3px solid $maroon;
+  padding: $space-2;
+}
+.recipe-header
+{
+  position: relative;
+  margin-top: 145px;
+}
+.recipe-header-image
+{
+  margin-top: -145px;
+  display:flex;
+  justify-content: center;
+}
+
+.recipe-header-image img
+{
+  width:200px;
+  height: 200px;
+  border:5px solid #fff;
+}
+
+.recipe li
+{
+  margin-bottom:$space-1;
+}

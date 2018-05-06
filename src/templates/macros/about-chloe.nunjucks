@@ -1,0 +1,21 @@
+{% macro content(social=true) %}
+<div class="bg-light-silver my2 pt2">
+  <div class="md-flex items-center ">
+    <div class="md-col-4 p2 ">
+      <img src="/images/chloe.jpg" alt="Chloe Jones" class="circle" data-pin-nopin="true">
+    </div>
+    <div class="md-col-8 p2 ">
+      <h2 class="caps h4 mb2 silver dosis regular">About Chloe</h2>
+      <p class="h5 p0 m0">A little thing about me: I love FOOD. I also love food photography. I wrote an ebook that can help you learn your camera and I also teach food photography workshops in our massachusetts studio.</p>
+      <p>Did you make a recipe? Tag <a href="https://instagram.com/cookwithchloe" target="_blank">@cookwithchloe on Instagram.</a></p>
+      <p>I WANNA SEE!</p>
+      <ul class="list-reset flex h5">
+        <li class="mr1"><a href="https://instagram.com/cookwithchloe" target="_blank">facebook</a></li>
+        <li class="mr1"><a href="https://instagram.com/cookwithchloe" target="_blank">instagram</a></li>
+        <li class="mr1"><a href="https://instagram.com/cookwithchloe" target="_blank">pinterest</a></li>
+        <li class="mr1"><a href="https://instagram.com/cookwithchloe" target="_blank">twitter</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endmacro %}

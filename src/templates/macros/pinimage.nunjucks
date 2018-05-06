@@ -1,0 +1,11 @@
+{% macro large(
+    pinurl="https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs.html",
+    image="/images/stub7.jpg",
+    alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull.",
+    pindescription="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum! #pasta #spaghetti #meatballs #chickenmeatballs #springrecipe"
+  ) 
+%}
+<div>
+  <img src="{{ image }}" alt="{{ alt }}" data-pin-description="{{ pindescription }}| www.cookwithchloe.com">
+</div>
+{% endmacro %}

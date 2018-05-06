@@ -1,7 +1,7 @@
 {% macro item(
-  url='http://amzn.to/2EW7Hok',
+  url='/garlic-herb-spaghetti-chicken-meatballs.html',
   image='stub5.jpg',
-  title='Instant Pot',
+  title='Garlic Herb Spaghetti with Baked Chicken Meatballs',
   button='Buy Now',
   alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull."
   ) 

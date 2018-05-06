@@ -1,0 +1,110 @@
+<!-- index.nunjucks -->
+{% extends "layout-recipe.nunjucks" %}
+
+{% block meta %}
+  {{meta.content(
+  title="Garlic Herb Spaghetti with Chicken Meatballs Recipe - Cook With Chloe",
+  description="Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum!",
+  url="https://www.cookwithchloe.com/garlic-herb-spaghetti-chicken-meatballs.html",
+  image="https://www.cookwithchloe.com/images/stub6-card.jpg"
+  )}}
+{% endblock %}
+
+{% block main %} 
+  <article itemtype="https://schema.org/CreativeWork">
+    <p><time itemprop="datePublished" datetime="2018-05-03T04:00:00+00:00">May 6, 2018</time></p>
+    <h1 itemprop="headline">Garlic Herb Spaghetti with Chicken Meatballs</h1>
+    <p><a href="#recipe">Jump To Recipe</a>&nbsp;&bull;&nbsp;<a href="#">Print Recipe</a></p>
+    <div itemprop="text">
+      {{ pins.large() }}        
+      <p>Hi! Happy day!</p>
+      <p>There is a pasta combination of epic proportions happening in my life right now. It involves butter and garlic and herbs and fresh greens, which then gets tossed with thick pasta and the most ridiculously good chicken meatballs, which finally gets sprinkled with parm and squeezed with lemon. YES. It’s simple. It’s a total deliciousness bomb. It’s like spaghetti and meatballs got a spring makeover – you get the comforting, satisfying, not-messing-around texture of spaghetti and meatballs with some lightness (thanks to fresh spinach and chicken) plus a little extra pop and brightness from the lemon and garlic and butter.</p>
+      <p>You need to get down to business with this.</p>
+      <p>Here’s how this magic happens.</p>
+      <p>First: bake your meatballs. This is so easy that I will probably eventually dedicate an entire post to it. One bowl, no cutting board, just mix and roll and bake.</p>
+      <p>Then, you get your sauce going.</p>
+      <p>Sauce is a little bit of a loose term here – I would not say that this is the sauciest of all the pastas ever made, but that’s good. You don’t really want it to be. It’s meant to be light, fresh, and just saucy enough to help it all slip together effortlessly.</p>
+      <p>A sauté pan with a stick of creamy, melted <a href="https://pyum.co/SaltedButterMay18" target="_blank" rel="nofollow noopener">Land O Lakes® Butter</a> (always! it’s the good stuff) and a little fresh garlic, lemon zest, and some fresh greens are going to give you juuust enough of a shy sauce to coat all your noodles and meatballs to light, buttery, silky perfection.</p>
+      <p>Like so.</p>
+      <p>I like to add a little splash of water or white wine (preferable!) to the pan at the end to help the butter really stick to everything and carry the flavor into every bite.</p>
+      <p>And, naturally, a squeeze of lemon on top and a fancy dusting of Parmesan is necessary.</p>
+      <p>Fork twirl in three, two….</p>
+    
+      <div id="recipe" class="recipe" >
+        <div class="recipe-header bg-maroon white p3">
+          <div class="recipe-header-image">
+            <img src="/images/stub2.jpg" class="circle" alt="Garlic Herb Spaghetti with Baked Chicken Meatballs in a pan with noodle pull." data-pin-nopin="true">
+          </div>
+          <h2 class="center regular dosis h1">Garlic Herb Spaghetti with Baked Chicken Meatballs</h2>
+          <hr class="white">
+          <div class="md-flex justify-center">
+            <ul class="md-flex list-reset justify-around md-col-6">
+              <li><span class="">Chef:</span> <span class="">Chloe</span></li>
+              <li class=""><span class="">Yield:</span> <span class="">4 servings</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="recipe-body">
+          <div class="md-flex  mxn1">
+            <a class="bg-maroon block white flex-auto m1 p2 flex justify-center caps h3" href="#">Print Recipe</a>  
+            <a class="bg-maroon block white flex-auto m1 p2 flex justify-center caps h3 pointer" data-pin-do="buttonBookmark" data-pin-custom="true" href="https://www.pinterest.com/pin/create/button/">Pin Recipe</a>
+          </div>
+
+          <div class="">
+            <h3>Description</h3>
+            <p>Garlic Herb Spaghetti with Baked Chicken Meatballs is SO GOOD! lots of lemon, butter, parsley, and a handful of Parmesan. Yum!</p>
+          </div>
+       
+          <hr>
+          <div class="">
+            <h3>Ingredients</h3>
+            <p><strong>Baked Meatballs:</strong></p>
+            <ul>
+              <li>1 pound <strong>ground turkey or chicken</strong></li>
+              <li>1 <strong>egg</strong></li>
+              <li>1/2 cup <strong>panko breadcrumbs</strong></li>
+              <li>1/2 cup <strong>grated Parmesan</strong></li>
+              <li>2 tablespoons <strong>olive oil</strong> <em>(optional – makes meatballs more moist and yummy)</em></li>
+              <li>1/2 teaspoon <em>each</em> <strong>garlic powder</strong> and <strong>onion powder</strong></li>
+              <li>1/2 teaspoon <strong>salt</strong></li>
+              <li><strong>black pepper</strong> to taste</li>
+              <li>additional seasonings optional (I added a pinch of this Go-To seasoning from What’s Gaby Cooking)</li>
+            </ul>
+            <p><strong>Garlic Herb Pasta:</strong></p>
+            <ul>
+              <li>8 ounces <strong>spaghetti, linguine, or cappellini</strong> <em>(regular or whole wheat)</em></li>
+              <li>1 stick (1/2 cup) <strong>Land O Lakes® Butter</strong></li>
+              <li>3 cloves <strong>garlic</strong>, minced</li>
+              <li>1 teaspoon <strong>lemon zest</strong></li>
+              <li>3-4 ounces <strong>fresh spinach</strong>, chopped</li>
+              <li>about a cup of <strong>fresh parsley</strong>, chopped</li>
+              <li>1/2 cup grated <strong>Parmesan</strong></li>
+              <li>1/4 cup <strong>water</strong> or <strong>white wine</strong> (more or less as needed)</li>
+              <li>a squeeze of lemon juice, salt, and pepper to finish</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="">
+            <h3>Instructions</h3>
+            <ol>
+              <li><strong>Baked Meatballs:</strong> Preheat the oven to 400 degrees. Mix all the meatball ingredients until well combined. Roll into 30 small balls. Place on a baking sheet lined with foil and sprayed with oil to prevent sticking. Bake for 25-30 minutes.</li>
+              <li><strong>Pasta Prep:&nbsp;</strong>Cook pasta according to package directions. Drain and set aside.</li>
+              <li><strong>Sauté:&nbsp;</strong>Melt butter in a large, deep pot over medium heat. Add the garlic and lemon zest. Sauté for a few minutes (don’t brown the garlic, but get the butter going so it’s a little bit sizzly). Add spinach and parsley and cook until just wilted.</li>
+              <li><strong>Finish It Off:&nbsp;</strong>Add pasta, meatballs, and Parmesan. Toss to combine. Add water as needed to loosen it up and make it a little more creamy. Add seasoning to taste – including a final squeeze of lemon! Stand over pot, eat forkfuls of pasta, and repeat.</li>
+            </ol>
+          </div>
+         
+        </div>
+         
+        <div class="bg-maroon p2 white">
+          <p class="h2 m0 dosis">Did you make this recipe?</p>
+          <p class="m0 muted">Tag <a href="https://www.instagram.com/cookwithchloe/" target="_blank" class="white underline">@cookwithchloe</a> on Instagram and hashtag it <a href="https://www.instagram.com/explore/tags/cookwithchloe/" target="_blank" class="white underline">#cookwithchloe</a></p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+{% endblock %}
+
+

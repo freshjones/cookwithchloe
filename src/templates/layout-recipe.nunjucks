@@ -16,7 +16,9 @@
           {% import 'macros/card.nunjucks' as cards %}
           {% import 'macros/pinimage.nunjucks' as pins %}
           {% import 'macros/shop-item.nunjucks' as shop %}
+          {% import 'macros/about-chloe.nunjucks' as about %}
           {% block main %}{% endblock %}
+          {{ about.content() }}
         </main>
         <aside class="md-col-4 px3">
           {% block aside %}

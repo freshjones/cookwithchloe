@@ -44,6 +44,17 @@ h1, h2 {
   line-height: 1.1;
 }
 
+hr.white {
+  color: #FFF;
+  background: #FFF;
+  height: 1px;
+  border: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
 /*
 
 
@@ -236,6 +247,32 @@ section {
     grid-template-columns: 100px 100px 100px;
     grid-gap: 10px;
   }
+}
+
+.recipe-body {
+  border: 3px solid #853977;
+  padding: 20px;
+}
+
+.recipe-header {
+  position: relative;
+  margin-top: 145px;
+}
+
+.recipe-header-image {
+  margin-top: -145px;
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-header-image img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #fff;
+}
+
+.recipe li {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=maps/styles.css.map */
