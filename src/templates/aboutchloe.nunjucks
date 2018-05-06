@@ -1,0 +1,9 @@
+<div>
+  <div class="px4">
+    <img src="/images/chloe.jpg" alt="Chloe Jones" class="circle" data-pin-nopin="true">
+  </div>
+  <div class="px2">
+    <h2 class="caps h5 silver center regular">Hi, Nice to meet you, I'm Chloe!</h2>
+    <p class="h5 p0 m0 center regular">Small business owner, food blogger, wife and mom of 3. I live in Massachusetts with my husband Billy, our daughter Olivia and our dog Tessa. My favorite things include cooking, boating and spending time with the fam. <a href="/about.html">Learn More</a></p>
+  </div>
+</div>

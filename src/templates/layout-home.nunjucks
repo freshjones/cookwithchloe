@@ -17,36 +17,15 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-T4C8RFK');</script>
   <!-- End Google Tag Manager -->
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-8688418781766675",
-      enable_page_level_ads: true
-    });
-  </script>
 </head>
 <body >
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4C8RFK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="mb2">
     {% include 'header.nunjucks' %}
-    <div class="container">
-      <div class="md-flex mxn3">
-        <main class="md-col-8 px3">
-          {% import 'macros/card.nunjucks' as cards %}
-          {% block main %}{% endblock %}
-        </main>
-        <aside class="md-col-4 px3">
-          {% block aside %}
-            <div class="my3">
-              {% include 'aboutchloe.nunjucks' %}
-            </div>
-            <div class="my3 border-top border-silver pt3">
-              {% include 'popular-recipes.nunjucks' %}
-            </div>
-          {% endblock %}
-        </aside>
-      </div>
-    </div>
+    <main>
+      {% import 'macros/card.nunjucks' as cards %}
+      {% block main %}{% endblock %}
+    </main>
     {% include 'footer.nunjucks' %}
   </div>
   <script src="/js/vendor.js"></script>

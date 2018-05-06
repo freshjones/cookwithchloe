@@ -1,10 +1,11 @@
-footer .social-icons
+
+.social-icons
 {
   display:flex;
   justify-content: center;
 }
 
-footer .social-icons ul
+.social-icons ul
 {
   list-style: none;
   display:flex;
@@ -14,15 +15,17 @@ footer .social-icons ul
   margin-right:0;
 }
 
-footer .social-icons a
+.social-icons a
 {
   width:30px;
   height:30px;
   display:block;
   margin: 0 5px;
+  padding: 0;
 }
 
-@include breakpoint($medium) { 
-
-
+.social-icons a:hover
+{
+  fill:$maroon;
 }
+

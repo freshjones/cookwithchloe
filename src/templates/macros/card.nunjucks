@@ -5,16 +5,19 @@
   title="Cauliflower walnut taco meat",
   pin_description="Spicy Cauliflower Walnut Taco Meat! it's so easy: just mix and bake. meatless, gluten free, vegan! #glutenfree #vegetarian #vegan #dinnerrecipe #healthy #yum | cookwithchloe.com",
   pin_url="https://cookwithchloe.com/cauliflower-walnut-vegetarian-taco-meat",
-  alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings."
+  alt="Cauliflower Walnut Taco Meat in a bowl with taco fixings.",
+  link='/garlic-herb-spaghetti-chicken-meatballs.html'
   ) 
 %}
 <div class="{{ styles }}">
   <div class="relative">
-    <div class="image-container"><img src="/images/{{ image }}" alt="{{ alt }}" title="{{ title }}" data-pin-url="{{ pin_url }}"  data-pin-description="{{ pin_description }}"></div>
-    <div class="bg-maroon white absolute bottom-0 col-12 p2 translucent">
-      <div class="caps h5 muted flex justify-center">{{ category }}</div>
-      <div class="flex dosis h3 justify-center">{{ title }}</div>
-    </div>
+    <a href="{{ link }}" class="block">
+      <div class="image-container"><img src="/images/{{ image }}" alt="{{ alt }}" title="{{ title }}" data-pin-url="{{ pin_url }}"  data-pin-description="{{ pin_description }}"></div>
+      <div class="bg-maroon white absolute bottom-0 col-12 p2 translucent">
+        <div class="caps h5 muted flex justify-center">{{ category }}</div>
+        <div class="flex dosis h3 justify-center">{{ title }}</div>
+      </div>
+    </a>
   </div>
 </div>
 {% endmacro %}

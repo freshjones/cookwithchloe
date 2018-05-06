@@ -1,0 +1,37 @@
+<div>
+  <h2 class="m0 p0 dosis regular maroon mb3">Popular <span class="caps bitter gray">Recipes</span></h2>
+  <ul class="list-reset">
+    <li class="mb3">
+      {{ cards.postSidebar(
+        link='/garlic-herb-spaghetti-chicken-meatballs.html',
+        image='stub3.jpg',
+        title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+        alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+      ) }}
+    </li>
+    <li class="mb3">
+      {{ cards.postSidebar(
+        link='/garlic-herb-spaghetti-chicken-meatballs.html',
+        image='stub3.jpg',
+        title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+        alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+      ) }}
+    </li>
+    <li class="mb3">
+      {{ cards.postSidebar(
+        link='/garlic-herb-spaghetti-chicken-meatballs.html',
+        image='stub3.jpg',
+        title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+        alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+      ) }}
+    </li>
+    <li class="mb3">
+      {{ cards.postSidebar(
+        link='/garlic-herb-spaghetti-chicken-meatballs.html',
+        image='stub3.jpg',
+        title="Spicy Sesame Zoodles with Crispy Tofu in bowl.",
+        alt="Spicy Sesame Zoodles with Crispy Tofu in bowl."
+      ) }}
+    </li>
+  </ul>
+</div>
